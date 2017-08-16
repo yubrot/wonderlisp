@@ -1,0 +1,25 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]; then
+  echo 'Usage: wonderlisp host-lisp-executable ...'
+  exit 1
+fi
+
+$1 \
+  lispboot/contrib/stream.lisp \
+  lispboot/contrib/parser-combinators.lisp \
+  lispboot/contrib/parser-combinators-stream.lisp \
+  lispboot/contrib/tbl.lisp \
+  lib/sexp.lisp \
+  lib/parser.lisp \
+  lib/env.lisp \
+  lib/pattern.lisp \
+  lib/native.lisp \
+  lib/inst.lisp \
+  lib/code.lisp \
+  lib/vm.lisp \
+  lib/syntax.lisp \
+  driver/builtins.lisp \
+  driver/testrunner.lisp \
+  driver/main.lisp \
+  -- ${@:2}
