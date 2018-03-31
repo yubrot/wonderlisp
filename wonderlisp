@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $# -eq 0 ]; then
-  echo 'Usage: wonderlisp host-lisp-executable ...'
+  echo 'Usage: wonderlisp host-lisp-command ...'
   exit 1
 fi
 

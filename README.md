@@ -7,11 +7,9 @@ wonderlisp is a self-hosting Lisp-1 implementation.
 
 Any [lispboot](https://github.com/yubrot/lispboot)-compatible Lisp implementation can run wonderlisp. wonderlisp itself is also [lispboot](https://github.com/yubrot/lispboot)-compatible.
 
-```bash
-# Run Conway's Game of Life on ocalisp (slow)
-$ ./wonderlisp ../ocalisp/ocalisp lispboot/examples/conways-gol.lisp
+    # Run Conway's Game of Life on ocalisp (slow)
+    $ ./wonderlisp ../ocalisp/ocalisp lispboot/examples/conways-gol.lisp
 
-# Run REPL on wonderlisp on ocalisp (incredibly slow)
-$ ./wonderlisp "./wonderlisp ../ocalisp/ocalisp"
-```
+    # Run REPL on wonderlisp on ocalisp (extremely slow)
+    $ ./wonderlisp "./wonderlisp ../ocalisp/ocalisp"
 
