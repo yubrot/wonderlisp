@@ -50,7 +50,7 @@
 
 (def *letter "A-Za-z")
 (def *digit "0-9")
-(def *special "-!$%&*+./:<=>?@^_~")
+(def *special "-!$%&*+/:<=>?@^_~")
 
 (def <number>
   (p-lazy
