@@ -22,7 +22,7 @@
 (defun init (ctx boot args)
   (register-builtins args (vm-builtins ctx))
   (when boot
-    (let1 bootcode (str->stream (force-success (open-read "lispboot/boot.lisp")))
+    (let1 bootcode (str->stream (force-success (open-read "rosetta-lisp/boot.lisp")))
       (force-success (exec ctx bootcode)))))
 
 (defun repl (ctx)

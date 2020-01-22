@@ -6,10 +6,10 @@ if [ $# -eq 0 ]; then
 fi
 
 $1 \
-  lispboot/contrib/stream.lisp \
-  lispboot/contrib/parser-combinators.lisp \
-  lispboot/contrib/parser-combinators-stream.lisp \
-  lispboot/contrib/tbl.lisp \
+  rosetta-lisp/contrib/stream.lisp \
+  rosetta-lisp/contrib/parser-combinators.lisp \
+  rosetta-lisp/contrib/parser-combinators-stream.lisp \
+  rosetta-lisp/contrib/tbl.lisp \
   lib/sexp.lisp \
   lib/parser.lisp \
   lib/env.lisp \
