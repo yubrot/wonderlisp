@@ -26,7 +26,7 @@
       (force-success (exec ctx bootcode)))))
 
 (defun repl (ctx)
-  (write-line "[ocalisp REPL]" stderr)
+  (write-line "[wonderlisp REPL]" stderr)
   (let loop ([stream (port->stream stdin)])
     (write-str "> " stderr)
     (flush stderr)
